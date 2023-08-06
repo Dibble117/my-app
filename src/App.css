@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,107 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+/* App.css */
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Main container uses Flexbox */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  list-style: none;
+  display: flex; /* Apply Flexbox to the list */
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 20px; /* Add spacing between links */
+}
+
+.nav li:last-child {
+  margin-right: 0; /* Remove margin for the last link */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+/* App.css */
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Set the desired text color */
+  font-family: 'Helvetica', sans-serif; /* Use your chosen font */
+  /* Add other styles based on your design */
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px; /* Set the desired font size */
+  line-height: 1.5; /* Set the desired line height */
+  /* Add other styles based on your design */
+}
+
+/* Span styles */
+span {
+  /* Add styles for spans based on your design */
+}
+
+/* App.css */
+/* Navigation styles */
+nav {
+  background-color: #f5f5f5; /* Set the background color for the navigation */
+  /* Add other styles based on your design */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* Add other styles based on your design */
+}
+
+li {
+  margin: 5px 0;
+  /* Add other styles based on your design */
+}
+
+/* App.css */
+/* Image styles */
+img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  /* Add other styles based on your design */
 }
