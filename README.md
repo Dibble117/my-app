@@ -1,4 +1,4 @@
-# Little Lemon front-end excercise
+# Little Lemon front-end booking excercise
 The purpose of this small front-end project was to build a front-end application for the fictional Little Lemon restaurant and create a booking form with form validation.
 The project is made with React, and because it's a very simple form validation application, it features no SQL database.
 
