@@ -1,3 +1,8 @@
+# Little Lemon front-end application
+The purpose of this small front-end project was to build a front-end application for the fictional Little Lemon restaurant and create a booking form with form validation.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
